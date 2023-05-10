@@ -10,8 +10,8 @@
     --heading-font: "Fugaz One", display;
     --paragraph-font: "Roboto Slab", serif;
 
-    --nav--background-color: #ddedaa;
-    --nav--link-color: #4d4d4d;
+    --nav-background-color: #ddedaa;
+    --nav-link-color: #4d4d4d;
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #acd33d;
 }
@@ -37,14 +37,14 @@ p {
 }
 
 nav {
-    background-color: var(--nav--background-color);
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--nav--link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
