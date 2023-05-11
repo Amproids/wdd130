@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Fugaz+One);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+:root {
+    --primary-color: #93b5c6;
+    --secondary-color: #d7816a;
+    --accent1-color: #f0cf65;
+    --accent2-color: #bd4f6c;
+
+    --heading-font: "Fugaz One", sans-serif;
+    --paragraph-font: "Roboto Slab", serif;
+
+    --nav-background-color: #ddedaa;
+    --nav-link-color: #4d4d4d;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #acd33d;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fugaz One", sans-serif;
+    color: var(--primary-color);
+}
+
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+article {
+    padding: 10px;
+    margin: 20px;
+    max-width: 100%;
+    position: absolute;
+    display: block;
+    top: 250px;
+    background-color: var(--secondary-color);
+}
+
+article img{
+    max-width: 40%;
+    float: right;
+}
