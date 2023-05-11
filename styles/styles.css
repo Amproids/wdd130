@@ -30,7 +30,7 @@ aside {
     max-width: 840px;
     text-align: center;
 }
-aside h2 {
+aside {
     position: relative;
 }
 
@@ -61,7 +61,7 @@ p {
     padding: 0;
 }
 
-/* class selectors */
+/* Class Selectors */
  
 .box {
     margin: 1rem;
