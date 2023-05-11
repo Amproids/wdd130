@@ -17,8 +17,33 @@
 }
 
 header {
-    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    padding: 0.5rem;
     background-color: var(--accent1-color);
+}
+
+header nav {
+    display:flex;
+    align-items: center;
+}
+
+header nav a{
+    padding: 3rem 2rem;
+    font-family: var(--paragraph-font);
+    color: #000000;
+    background-color: #f0cf65;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+header nav a:hover{
+    background-color: #a0893c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Fugaz One", sans-serif;
+    color: var(--primary-color);
 }
 
 body {
@@ -28,17 +53,59 @@ body {
     margin: auto;
 }
 
-nav a{
-    text-decoration: none;
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+section h2 {
+    margin: 20px;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Fugaz One", sans-serif;
-    color: var(--primary-color);
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    max-width: 18%;
+    margin: 1%;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    justify-items: center;
+    align-items: center ;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #f0cf65;
+}
+
+footer p {
+    grid-column: 2;
+}
+
+footer nav {
+    display: flex;
+    grid-column: 3;
+}
+
+footer nav a{
+    min-width: 2rem;
+    padding: 0.3rem;
 }
 
 .hero {
     position: relative;
+    margin: 1rem 0;
 }
 
 .hero img {
@@ -71,4 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 .hero article img{
     max-width: 40%;
     float: right;
+}
+
+.adventures-flex-container {
+    display: flex;
+    align-items: flex-end;
+}
+.adventures-flex-container img {
+    width: auto;
+    flex-shrink: 1;
 }

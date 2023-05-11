@@ -87,4 +87,5 @@ footer {
 .grid {
     display: grid;
     align-items: center;
+    grid-template-columns: auto auto;
 }
