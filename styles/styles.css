@@ -30,8 +30,8 @@ aside {
     max-width: 840px;
     text-align: center;
 }
-aside {
-    position: relative;
+aside h2{
+    position: absolute;
 }
 
 aside img {
