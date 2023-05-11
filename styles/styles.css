@@ -7,8 +7,6 @@
 header, .grid, footer{
     max-width: 840px;
     margin: 0 auto;
-    margin-top: 1em;
-    border-top: 1px solid #000000;
 }
 
 nav {
@@ -33,7 +31,9 @@ main {
     padding: 1rem;
 }
 h1 {
-    color: steelblue
+    color: steelblue;
+    padding: 1rem;
+    border-bottom: 1px solid steelblue;
 }
 img {
     width: 150px;
@@ -72,13 +72,15 @@ p {
 
 footer {
     text-align: center;
+    margin-top: 1em;
+    border-top: 1px solid #000000;
 }
 
 /* Class Selectors */
  
 .box {
     border: 1px solid black;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background-color: #f0cf65;
     color: rgb(17, 83, 17);
 }
