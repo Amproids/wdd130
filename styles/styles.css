@@ -1,40 +1,54 @@
-main {
-    max-width: 840px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+main {
+    max-width: 600px;
+}
+
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 aside {
+    position: relative;
     max-width: 840px;
-    margin: 1em;
-    border: 1px solid black;
-    padding: 10px;
-    background-color: #f0cf65;
-    color: rgb(17, 83, 17);
     text-align: center;
 }
+aside h2 {
+    position: relative;
+}
+
 aside img {
     width: 200px;
     height: auto;
 }
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000000;
     text-align: center;
 }
+
 h1 {
     color: steelblue
 }
+
 img {
     width: 150px;
     height: auto;
@@ -42,6 +56,17 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
+}
+
+/* class selectors */
+ 
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #f0cf65;
+    color: rgb(17, 83, 17);
 }
