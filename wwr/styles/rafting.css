@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero {
     position: relative;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -57,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(50, 50, 50, 0.9);
 }
 
-article {
+.hero article {
     padding: 10px;
     margin: 20px;
     max-width: 100%;
@@ -67,7 +68,7 @@ article {
     background-color: var(--secondary-color);
 }
 
-article img{
+.hero article img{
     max-width: 40%;
     float: right;
 }
