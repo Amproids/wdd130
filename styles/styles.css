@@ -31,6 +31,8 @@ aside {
     text-align: center;
 }
 aside h2{
+    left: 390px;
+    top: 20px;
     position: absolute;
 }
 
