@@ -1,0 +1,17 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #e6e6e6;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+#q1, #q2, #q3, #q4 {
+    margin-bottom: 2rem;
+}
