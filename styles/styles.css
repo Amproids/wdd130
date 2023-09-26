@@ -36,7 +36,7 @@ aside img {
 }
 
 footer {
-    margin: 2em;
-    border-top: 1px dotted black;
+    margin-top: 2em;
+    border-top: 1px solid black;
     text-align: center;
 }
