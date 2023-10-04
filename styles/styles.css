@@ -16,6 +16,7 @@ h1 {
     color: steelblue;
 }
 main img {
+    margin: 0.5rem;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -24,7 +25,7 @@ main img {
     float: right;
 }
 p {
-    padding: 0;
+    padding: 1.5rem;
 }
 main {
     max-width: 800px;
@@ -37,6 +38,11 @@ aside img {
     width: 200px;
     height: auto;
 }
+aside h2 {
+    position: absolute;
+    top: 520px;
+    left: 20px;
+}
 footer {
     margin-top: 2em;
     border-top: 1px solid black;
@@ -47,7 +53,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 1.2rem;
     background-color: lightgray;
     color: black;
 }
