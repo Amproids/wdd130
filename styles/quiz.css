@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 5rem auto 1.5rem;
+    width: 600px;
+    color: steelblue;
+}
+main {
+    margin: 0 auto;
+    width: 600px;
+}
+footer {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 600px;
+    text-align: center;
+    margin-top: 1rem;
+    border-top: 1px solid black;
+}
+
+fieldset {
+    padding: 1rem;
+    display: grid;
+    grid-row-gap: 1rem;
+}
+
+label {
+    font-size: larger;
+    color: rgb(36, 67, 92);    
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0rem;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    background-color: steelblue
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+.example-code {
+    font-family: 'Ubuntu Mono', monospace;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(36, 36, 36);
+    padding: 1rem;
+}
