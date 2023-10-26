@@ -83,10 +83,14 @@ footer nav a img {
 h3 {
     font-size: 1.3rem;
 }
+img {
+    width: 200px;
+}
 .hero {
     margin-bottom: 2rem;
 }
 .hero img {
+    width: 100%;
     display: block;
     max-width: 100%;
     height: auto;
@@ -210,6 +214,48 @@ h3 {
 .all-trips article a:hover {
     background-color: rgb(179, 179, 179);
     box-shadow: none;
+}
+.index-hero img {
+    width: 100%;
+}
+.index-hero h1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 2rem;
+    position: absolute;
+    width: 50%;
+    top: 200px;
+    text-align: center;
+}
+.trips-link {
+    margin: 4rem auto;
+    max-width: fit-content;
+    text-align: center;
+}
+.trips-link a {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+    background-color: var(--nav-background-color);
+    text-decoration: none;
+}
+.trips-link a:hover {
+    background-color: var(--nav-hover-background-color);
+}
+.our-goal {
+    display: grid;
+}
+.our-goal h2 {
+    grid-row: 1;
+    grid-column: 1/4;
+    text-align: center;
+}
+.our-goal img{
+    grid-row: 2;
+    padding: 1rem;
+}
+.our-goal p {
+    grid-row: 2;
+    padding: 1rem;
 }
 form {
     margin: 1rem auto;
