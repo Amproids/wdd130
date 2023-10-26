@@ -80,6 +80,9 @@ footer nav {
 footer nav a img {
     max-width: 50px;
 }
+h3 {
+    font-size: 1.3rem;
+}
 .hero {
     margin-bottom: 2rem;
 }
@@ -161,7 +164,53 @@ footer nav a img {
     box-shadow: 10px 10px rgb(104, 104, 104);
     border-radius: 5px;
 }
+.featured-trips {
+    display: grid;
+}
+.featured-trips article {
+    display: grid;
+    grid-auto-flow: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+.featured-trips img{
+    max-width: 300px;
+}
+.featured-trips h3 {
+    text-align: center;
+}
 
+.all-trips article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.all-trips article table {
+    border-collapse: collapse;
+}
+.all-trips article table th{
+    padding: 0.5rem;
+    border: solid black 1px;
+    color: white;
+    background-color: var(--accent2-color);
+}
+.all-trips article table td{
+    padding: 0.4rem;
+    border: solid black 1px;
+}
+.all-trips article a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+    background-color: #808080;
+    padding: 1.5rem;
+    box-shadow: 5px 5px;
+}
+.all-trips article a:hover {
+    background-color: rgb(179, 179, 179);
+    box-shadow: none;
+}
 form {
     margin: 1rem auto;
     width: 50%;
